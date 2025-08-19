@@ -808,7 +808,7 @@ nav .menu ul li a:hover {
     padding: 40px 0;
   }
   .footer__flex_div {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
   .footer__flex_div--list {
