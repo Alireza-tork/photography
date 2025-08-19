@@ -180,7 +180,7 @@ nav .menu ul li a:hover {
   width: 100%;
   height: 300px;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: fill;
 }
 .evry_moment__capture p__texts--p {
   text-align: center;
@@ -265,7 +265,7 @@ nav .menu ul li a:hover {
   width: 100%;
   height: 300px;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: fill;
 }
 .paragraph__texts--p {
   text-align: center;
@@ -607,7 +607,9 @@ nav .menu ul li a:hover {
   flex-direction: column-reverse;
 }
 .footer__flex_div--list {
+  padding: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 20px;
 }
@@ -808,11 +810,12 @@ nav .menu ul li a:hover {
     padding: 40px 0;
   }
   .footer__flex_div {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
   }
   .footer__flex_div--list {
     gap: 40px;
+    flex-direction: row;
   }
   .footer__flex_div--list ul {
     font-size: 2rem;

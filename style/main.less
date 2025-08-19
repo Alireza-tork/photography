@@ -154,7 +154,7 @@ input{
             width: 100%;
             height: 300px;
             aspect-ratio: 1/1;
-            object-fit: cover;
+            object-fit: fill;
         }
         &--p{
             text-align: center;
@@ -307,7 +307,9 @@ input{
         align-items: center;
         flex-direction: column-reverse;
         &--list{
+            padding: 10px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             gap: 20px;
             ul{
@@ -500,10 +502,11 @@ display: none;
     padding: 40px 0;
     &__flex_div{
         @sec_color: #36312d;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         &--list{
             gap: 40px;
+            flex-direction: row;
             ul{
                 font-size: 2rem;
             }
