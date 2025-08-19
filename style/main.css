@@ -177,10 +177,10 @@ nav .menu ul li a:hover {
   gap: 20px;
 }
 .evry_moment__capture p__texts img {
-  width: 300px;
+  width: 100%;
   height: 300px;
   aspect-ratio: 1/1;
-  object-fit: fill;
+  object-fit: cover;
 }
 .evry_moment__capture p__texts--p {
   text-align: center;
@@ -210,8 +210,8 @@ nav .menu ul li a:hover {
   box-shadow: inset 0 -50px 0 #f5c49c;
 }
 .evry_moment__capture img {
-  width: 100px;
-  height: 100px;
+  width: 30%;
+  height: auto;
   object-fit: fill;
 }
 .evry_moment__capture--img1 {
@@ -262,10 +262,10 @@ nav .menu ul li a:hover {
   gap: 20px;
 }
 .paragraph__texts img {
-  width: 300px;
+  width: 100%;
   height: 300px;
   aspect-ratio: 1/1;
-  object-fit: fill;
+  object-fit: cover;
 }
 .paragraph__texts--p {
   text-align: center;
@@ -620,7 +620,7 @@ nav .menu ul li a:hover {
 .footer__flex_div--list ul a {
   text-decoration: none;
   color: #36312d;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 .footer__flex_div--image {
   display: flex;
